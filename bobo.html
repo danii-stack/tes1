@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    .header{
+        height: 100vh;
+            background: url('foto/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(255, 255, 255);
+    }
+    .header h1{
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .header p{
+        font-size: 1.5rem;
+        margin-top: 0px;
+    }
+    .duck{
+        font-size: 2rem;
+        text-align: center;
+        color: #272828;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+    }
+    .card img {
+        max-width: 30%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #272828;
+    }
+    .fakeimg{
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+    }
+    @media (max-width:768px){
+        .header h1 {font-size:3rem;}
+        .header p {font-size: 1.2rem;}
+        .card img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .icon {
+    font-size: 40px; /* Ukuran ikon */
+    color: #E4405F; /* Warna Instagram */
+    text-decoration: none; /* Hilangkan underline */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Efek hover */
+  }
+  .whatsapp {
+    font-size: 40px; /* Ukuran ikon */
+    color:#128c7e ; /* Warna Instagram */
+    text-decoration: none; /* Hilangkan underline */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Efek hover */
+  }
+  .telegram {
+    font-size: 10px; /* Ukuran ikon */
+    color:#229ED9 ; /* Warna Instagram */
+    text-decoration: none; /* Hilangkan underline */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Efek hover */
+  }
+  .icon:hover {
+    color: #d32e57; /* Warna saat hover */
+    transform: scale(1.2); /* Perbesar ikon saat hover */
+    }
+   .whatsapp:hover {
+    color:  #075e54; /* Warna saat hover */
+    transform: scale(1.2); /* Perbesar ikon saat hover */
+  }
+  .telegram:hover {
+    color:  #39a7d9; /* Warna saat hover */
+    transform: scale(1.2); /* Perbesar ikon saat hover */
+  }
+  a{
+    float: right;
+  }
+
+    </style>
+</head>
+<body>
+   <div class="header">
+    <h1>My Profil</h1>
+    <p>by Dani</p>
+</div>
+<div class="duck">
+    <h3>My Foto</h3>
+    <nav>
+        <a href="./">Galeri</a>
+    </nav>
+</div>
+<div class="cards">
+        <div class="card">
+            <img src="foto/dann.jpg" alt="Saya" >
+            <img src="foto/IMG_3444 (2).JPG" alt="Saya">
+            <img src="foto/IMG_3582 (2).JPG" alt="Saya">
+        </div>
+</div>
+<div class="cards2">
+    <div class="card2">
+        <div class="fakeimg" style="height:80px;">
+            <a href="https://www.instagram.com/username" class="icon" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.instagram.com/username" class="whatsapp" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/username" class="telegram" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </div><br>
+
+    </div>
+</div>
+
+</div>
+</body>
+</html>
